@@ -1,0 +1,14 @@
+#include<stdio.h>
+struct student{
+	int roll;
+	char name[20];
+}st1,st2;
+int main(){
+	printf("enter the values of roll no");
+	scanf("%d %d",&st1.roll,&st2.roll);
+	printf("enter the values oftwo  student name");
+	scanf("%s %s",&st1.name,&st2.name);
+	printf("%d %d",st1.roll,st2.roll);
+	printf("%s %s",st1.name,st2.name);
+	return 0;
+}
